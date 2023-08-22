@@ -1,0 +1,67 @@
+#videoBackground {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 1600px;
+    height: 900px;
+    margin:0 auto;
+    transform: translate(-50%, -50%);
+    filter:opacity(50%);
+    z-index:-1;
+    min-height: 0;
+}
+#menu {
+    position:fixed;
+    display:block;
+    margin-top:20px;
+    left: 50px;
+}
+.title {
+    position: relative;
+    font-weight: 1000px;
+    font-size: 4rem;
+    font-family: sans-serif;
+    letter-spacing:6px;
+}
+.subtitle {
+    position: relative;
+    font-size: 1rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-family: Helvetica;
+    bottom:10px;
+}
+.button {
+    font-family: Helvetica;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    font-weight: 80px;
+    z-index:5;
+    color:black;
+    text-decoration: none;
+}
+.icon {
+    position: relative;
+    display:inline-block;
+    font-size: 3rem;
+    z-index: 5;
+    margin-right: 20px;
+}
+#main {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    min-width: 105%;
+    min-height: 105%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background: #f0f0f0;
+    z-index: 0;
+    opacity: 0;
+}
+html {
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
